@@ -27,7 +27,7 @@ Foi desenvolvido diretamente no código.</p>
 
 <h2 id="sessao">Sessão do Projeto:</h2>
 
-<h3>Sessão Principal:</h3>
+<h3>Tela Principal:</h3>
 
 
 ![Começo](https://github.com/AlexDeSaran/Calculadora/blob/main/img/img.png)
