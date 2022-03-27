@@ -138,7 +138,7 @@
                       <Component id="jButtonIgual" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jButtonEntre" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="0" pref="40" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="36" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
