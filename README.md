@@ -8,7 +8,7 @@
 
 <ul>
  <li><a href="#sobre">Sobre</a></li>
- <li><a href="#tecnologias">Técnologias usadas</a></li> 
+ <li><a href="#tecnologias">Tecnologias usadas</a></li> 
  <li><a href="#sessao">sessão da página</a></li>
  <li><a href="#autor">Autor</a></li> 
 </ul>
