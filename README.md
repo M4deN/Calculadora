@@ -18,7 +18,7 @@
 Foi desenvolvido diretamente no código.</p>
 
 
-<h2 id="tecnologias">Técnologias Usadas:</h2>
+<h2 id="tecnologias">Tecnologias Usadas:</h2>
 
 <p>
   <img src="https://img.shields.io/badge/JAVA-E34F26?style=for-the-badge&logo=java5&logoColor=white" />
