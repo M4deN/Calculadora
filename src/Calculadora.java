@@ -46,7 +46,7 @@ public class Calculadora extends javax.swing.JFrame {
         jButtonEntre = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("CALCU");
+        setTitle("CALCULADORA");
         setBackground(new java.awt.Color(0, 0, 0));
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
