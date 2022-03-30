@@ -337,44 +337,44 @@ public class Calculadora extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonCActionPerformed
 
     private void jButtonIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonIgualActionPerformed
-        String[] operacion = jTextFieldOperacion.getText().split(" ");
+        String[] operacao = jTextFieldOperacion.getText().split(" ");
         double resultado = 0;
 
-        switch (operacion[1]) {
+        switch (operacao[1]) {
             case "+":
-                resultado = Double.parseDouble(operacion[0]) + Double.parseDouble(operacion[2]);
+                resultado = Double.parseDouble(operacao[0]) + Double.parseDouble(operacao[2]);
                 break;
             case "-":
-                resultado = Double.parseDouble(operacion[0]) - Double.parseDouble(operacion[2]);
+                resultado = Double.parseDouble(operacao[0]) - Double.parseDouble(operacao[2]);
                 break;
             case "*":
-                resultado += Double.parseDouble(operacion[0]) * Double.parseDouble(operacion[2]);
+                resultado += Double.parseDouble(operacao[0]) * Double.parseDouble(operacao[2]);
                 break;
             case "/":
                 try {
-                    resultado = Double.parseDouble(operacion[0]) / Double.parseDouble(operacion[2]);
+                    resultado = Double.parseDouble(operacao[0]) / Double.parseDouble(operacao[2]);
                 } catch (Exception e) {
                 }
 
                 break;
         }
 
-        if (operacion.length > 3) {
+        if (operacao.length > 3) {
 
-            switch (operacion[3]) {
+            switch (operacao[3]) {
                 case "+":
-                    resultado += Double.parseDouble(operacion[4]);
+                    resultado += Double.parseDouble(operacao[4]);
                     break;
                 case "-":
-                    resultado -= Double.parseDouble(operacion[4]);
+                    resultado -= Double.parseDouble(operacao[4]);
                     break;
                 case "*":
-                    resultado *= Double.parseDouble(operacion[4]);
+                    resultado *= Double.parseDouble(operacao[4]);
                     break;
                 case "/":
 
                     try {
-                        resultado /= Double.parseDouble(operacion[4]);
+                        resultado /= Double.parseDouble(operacao[4]);
                     } catch (Exception e) {
                     }
 
@@ -383,21 +383,21 @@ public class Calculadora extends javax.swing.JFrame {
 
         }
 
-        if (operacion.length > 5) {
+        if (operacao.length > 5) {
 
-            switch (operacion[5]) {
+            switch (operacao[5]) {
                 case "+":
-                    resultado += Double.parseDouble(operacion[6]);
+                    resultado += Double.parseDouble(operacao[6]);
                     break;
                 case "-":
-                    resultado -= Double.parseDouble(operacion[6]);
+                    resultado -= Double.parseDouble(operacao[6]);
                     break;
                 case "*":
-                    resultado *= Double.parseDouble(operacion[6]);
+                    resultado *= Double.parseDouble(operacao[6]);
                     break;
                 case "/":
                     try {
-                        resultado /= Double.parseDouble(operacion[6]);
+                        resultado /= Double.parseDouble(operacao[6]);
                     } catch (Exception e) {
                     }
                     break;
