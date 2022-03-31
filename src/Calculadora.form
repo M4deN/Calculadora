@@ -63,7 +63,7 @@
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="jButtonIgual" min="-2" pref="50" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButtonEntre" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="jButtonDivisao" min="-2" pref="50" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <Component id="jButton4" min="-2" pref="50" max="-2" attributes="0"/>
@@ -81,14 +81,14 @@
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="jButton9" min="-2" pref="50" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="jButtonPor" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="jButtonMultiplicar" min="-2" pref="50" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jTextFieldOperacion" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
+                              <Component id="jTextFieldOperacao" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jButton1" min="-2" pref="50" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
@@ -96,7 +96,7 @@
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="jButton3" min="-2" pref="50" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                                  <Component id="jButtonMas" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="jButtonMais" min="-2" pref="50" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -109,13 +109,13 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                  <Component id="jTextFieldOperacion" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="jTextFieldOperacao" min="-2" pref="50" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton1" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jButton2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jButton3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                      <Component id="jButtonMas" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="jButtonMais" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -129,14 +129,14 @@
                       <Component id="jButton7" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jButton8" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jButton9" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                      <Component id="jButtonPor" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="jButtonMultiplicar" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton0" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jButtonC" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="jButtonIgual" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                      <Component id="jButtonEntre" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="jButtonDivisao" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="0" pref="36" max="32767" attributes="0"/>
               </Group>
@@ -144,7 +144,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JTextField" name="jTextFieldOperacion">
+        <Component class="javax.swing.JTextField" name="jTextFieldOperacao">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -285,7 +285,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonIgualActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButtonMas">
+        <Component class="javax.swing.JButton" name="jButtonMais">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Consolas" size="14" style="0"/>
@@ -293,7 +293,7 @@
             <Property name="text" type="java.lang.String" value="+"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonMasActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonMaisActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="jButtonMenos">
@@ -307,7 +307,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonMenosActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButtonPor">
+        <Component class="javax.swing.JButton" name="jButtonMultiplicar">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Consolas" size="14" style="0"/>
@@ -315,10 +315,10 @@
             <Property name="text" type="java.lang.String" value="*"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonPorActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonMultiplicarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButtonEntre">
+        <Component class="javax.swing.JButton" name="jButtonDivisao">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Consolas" size="14" style="0"/>
@@ -326,7 +326,7 @@
             <Property name="text" type="java.lang.String" value="&#xf7;"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonEntreActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonDivisaoActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
