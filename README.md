@@ -36,7 +36,7 @@ Foi desenvolvido diretamente no código.</p>
 
 ![Começo](https://github.com/AlexDeSaran/Calculadora/blob/main/img/di.png)
 
-<h2 id="autor"Autor</h2>
+<h3 id="autor"Autor</h3>
 
 <p>Autor do Projeto: Alécio L. Medeiros</p>
 
