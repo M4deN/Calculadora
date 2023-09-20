@@ -10,7 +10,6 @@
  <li><a href="#sobre">Sobre</a></li>
  <li><a href="#tecnologias">Tecnologias usadas</a></li> 
  <li><a href="#sessao">sessão da página</a></li>
- <li><a href="#autor">Autor</a></li> 
 </ul>
 
 <h2 id="sobre">Sobre</h2>
@@ -35,24 +34,3 @@ Foi desenvolvido diretamente no código.</p>
 <h3>Diagrama Do Código feito com ferramenta de engenharia reversa</h3>
 
 ![Começo](https://github.com/AlexDeSaran/Calculadora/blob/main/img/di.png)
-
-<h3 id="autor"Autor</h3>
-
-<p>Autor do Projeto: Alécio L. Medeiros</p>
-
-<p> 
-  <a href="https://www.linkedin.com/in/alex-leandro-medeiros-5b68741a3/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a> 
- 
-  </a> 
-  <a href="https://www.instagram.com/alexdesaran/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a> 
-  
-  </a>   
-</p>
-
-#### Estudante De Engenharia De Software
-
- 
