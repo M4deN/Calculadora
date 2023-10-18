@@ -9,7 +9,7 @@
 <ul>
  <li><a href="#sobre">Sobre</a></li>
  <li><a href="#tecnologias">Tecnologias</a></li> 
- <li><a href="#sessao">Sessão Página</a></li>
+ <li><a href="#sessao">Sessão do Projeto</a></li>
 </ul>
 
 <h2 id="sobre">Sobre</h2>
